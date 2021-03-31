@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac1b7555-cadd-48b1-a64b-9273813a68c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/adapter/SqlBookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/adapter/SqlCartItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/adapter/SqlOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/adapter/SqlShippingInformationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/WebBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/controller/WebBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/logic/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/book/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/cartitem/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/cartitem/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/repository/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/order/ShippingInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/ShippingInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/model/order/ShippingInformationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstoreapp/src/main/java/pl/achcinski/bookstore/repository/ShippingInformationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/bookAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/bookSingle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/bookUpdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/navBar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/orderFinish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/shippingInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstoreapp/src/main/resources/templates/shoppingCart.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nWMJ4OMCHtZIQNHuWRtLqcVawj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookstoreapp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac1b7555-cadd-48b1-a64b-9273813a68c5" name="Default Changelist" comment="" />
+      <created>1611501317936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611501317936</updated>
+      <workItem from="1611501319081" duration="89000" />
+      <workItem from="1615037159685" duration="207000" />
+      <workItem from="1617198926288" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bookstoreapp" />
+      <path value="$PROJECT_DIR$/bookstoreapp pod js" />
+    </ignored-roots>
+  </component>
+</project>

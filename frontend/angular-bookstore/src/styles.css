@@ -722,6 +722,12 @@ table.table.table-bordered th{
 .detail-section{
     margin-top:60px
 }
+
+.detail-img{
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 10%;
+}
 /**/
 
 /* 

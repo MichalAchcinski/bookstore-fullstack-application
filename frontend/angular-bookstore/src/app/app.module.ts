@@ -7,9 +7,11 @@ import { HttpClientModule } from '@angular/common/http'
 import { BookService } from './services/book.service';
 import { SearchComponent } from './components/search/search.component';
 import { Routes, RouterModule } from '@angular/router';
-import { BookCategoryMenuComponent } from './components/book-category-menu/book-category-menu.component'
+import { BookCategoryMenuComponent } from './components/book-category-menu/book-category-menu.component';
+import { BookDetailsComponent } from './components/book-details/book-details.component'
 
 const routes: Routes = [
+  {path: 'books/:id', component: BookDetailsComponent},
   {path: 'search/:keyword', component: BookListComponent},
   {path: 'category/:id', component: BookListComponent},
   {path: 'category', component: BookListComponent},
@@ -23,7 +25,8 @@ const routes: Routes = [
     AppComponent,
     BookListComponent,
     SearchComponent,
-    BookCategoryMenuComponent
+    BookCategoryMenuComponent,
+    BookDetailsComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

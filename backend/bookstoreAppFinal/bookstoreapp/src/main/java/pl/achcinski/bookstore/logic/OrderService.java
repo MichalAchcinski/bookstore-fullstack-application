@@ -6,7 +6,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import pl.achcinski.bookstore.model.book.Book;
+import pl.achcinski.bookstore.model.Book;
 import pl.achcinski.bookstore.model.CartItem;
 import pl.achcinski.bookstore.repository.CartItemRepository;
 import pl.achcinski.bookstore.model.Order;

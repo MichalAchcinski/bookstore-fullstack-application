@@ -5,9 +5,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.http.HttpMethod;
-import pl.achcinski.bookstore.model.book.Book;
+import pl.achcinski.bookstore.model.Book;
 import pl.achcinski.bookstore.model.CartItem;
 import pl.achcinski.bookstore.model.Order;
+import pl.achcinski.bookstore.repository.BookRepository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.metamodel.EntityType;
@@ -27,6 +28,7 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         HttpMethod[] theUnsopportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
 
         disableHttpMethods(Book.class, config, theUnsopportedActions);
+        disableHttpMethods(BookRepository.class, config, theUnsopportedActions);
         disableHttpMethods(CartItem.class, config, theUnsopportedActions);
         disableHttpMethods(Order.class, config, theUnsopportedActions);
 

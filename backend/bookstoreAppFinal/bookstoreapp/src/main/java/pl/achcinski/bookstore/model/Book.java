@@ -1,4 +1,4 @@
-package pl.achcinski.bookstore.model.book;
+package pl.achcinski.bookstore.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -45,8 +45,9 @@ public class Book {
     @UpdateTimestamp
     private LocalDateTime updatedOn;
 
-    @Enumerated(EnumType.STRING)
-    private Category category;
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private BookCategory category;
 
     @Min(value = 1, message = "Ilość stron musi być większa od 0")
     private int pages;
@@ -55,7 +56,7 @@ public class Book {
     private float price;
 
     public Book(String title, String author, String description, String publisher, LocalDate publishedOn,
-                Category category, int pages, float price) {
+                BookCategory category, int pages, float price) {
         this.title = title;
         this.author = author;
         this.description = description;

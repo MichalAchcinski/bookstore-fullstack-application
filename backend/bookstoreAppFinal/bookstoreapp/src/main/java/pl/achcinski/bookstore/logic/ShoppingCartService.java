@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 import pl.achcinski.bookstore.mapper.BookMapper;
-import pl.achcinski.bookstore.model.book.Book;
+import pl.achcinski.bookstore.model.Book;
 import pl.achcinski.bookstore.repository.BookRepository;
 import pl.achcinski.bookstore.model.CartItem;
 import pl.achcinski.bookstore.repository.CartItemRepository;

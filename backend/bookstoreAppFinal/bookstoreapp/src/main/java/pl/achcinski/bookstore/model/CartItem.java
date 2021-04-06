@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
-import pl.achcinski.bookstore.model.book.Book;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

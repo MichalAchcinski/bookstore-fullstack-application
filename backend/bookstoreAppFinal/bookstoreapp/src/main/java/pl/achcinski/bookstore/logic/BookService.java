@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 import pl.achcinski.bookstore.mapper.BookMapper;
-import pl.achcinski.bookstore.model.book.Book;
-import pl.achcinski.bookstore.repository.BookRepository;
-import pl.achcinski.bookstore.model.book.Category;
+import pl.achcinski.bookstore.model.Book;
+import pl.achcinski.bookstore.model.BookCategory;
 import pl.achcinski.bookstore.model.dto.BookDto;
+import pl.achcinski.bookstore.repository.BookRepository;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -27,7 +27,7 @@ public class BookService {
     }
 
     public void saveBook(Book book, MultipartFile file, String title, String author, String description,
-                         String publisher, LocalDate publishedOn, Category category, int pages, float price) {
+                         String publisher, LocalDate publishedOn, BookCategory category, int pages, float price) {
         if (!bookRepository.existsById(book.getId())) {
             book = new Book();
         }

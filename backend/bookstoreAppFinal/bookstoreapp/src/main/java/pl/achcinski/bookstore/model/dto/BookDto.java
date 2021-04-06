@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pl.achcinski.bookstore.model.book.Category;
+import pl.achcinski.bookstore.model.BookCategory;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -36,7 +36,7 @@ public class BookDto {
     private LocalDate publishedOn;
 
     @Enumerated(EnumType.STRING)
-    private Category category;
+    private BookCategory category;
 
     @Min(value = 1, message = "Ilość stron musi być większa od 0")
     private int pages;

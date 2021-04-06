@@ -1,7 +1,7 @@
 package pl.achcinski.bookstore.mapper;
 
 import org.mapstruct.Mapper;
-import pl.achcinski.bookstore.model.book.Book;
+import pl.achcinski.bookstore.model.Book;
 import pl.achcinski.bookstore.model.dto.BookDto;
 
 import java.util.List;

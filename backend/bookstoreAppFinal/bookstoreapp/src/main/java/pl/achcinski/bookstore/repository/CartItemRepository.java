@@ -3,7 +3,7 @@ package pl.achcinski.bookstore.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import pl.achcinski.bookstore.model.book.Book;
+import pl.achcinski.bookstore.model.Book;
 import pl.achcinski.bookstore.model.CartItem;
 
 import java.util.List;

@@ -53,15 +53,25 @@ export class BookListComponent implements OnInit {
 
     if (hasCategoryId) {
       this.currentCategoryId = +this.route.snapshot.paramMap.get('id');
+
+      this.bookService.getBooksListWithCategory(this.currentCategoryId).subscribe(
+        data => {
+          this.books = data;
+        }
+      )
+
     } else {
-      this.currentCategoryId = 2;
+      this.bookService.getWholeBooksList().subscribe(
+        data => {
+          this.books = data;
+        }
+      )
     }
 
-    this.bookService.getBooksList(this.currentCategoryId).subscribe(
-      data => {
-        this.books = data;
-      }
-    )
+
+
+
+
   }
 
 }
